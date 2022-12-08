@@ -35,3 +35,4 @@
 - Telegram: https://t.me/kzmienko
 - email: kzmienko@yandex.ru
 - nickname on discord server "rs-school": Kirill Zmienko (@valcnut)
+- GitHub: https://github.com/valcnut
