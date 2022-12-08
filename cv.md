@@ -13,13 +13,13 @@
 > _This is an open source free project for learning the basics of/programming._/
 - <https://code-basics.com/ru>
 
-## Hard Skill
+## Hard Skills
 * HTML;
 * CSS;
 * JavaScript;
 * React.js;
 
-## Soft Skill
+## Soft Skills
 * Communication;
 * Teamwork;
 * Adaptability;
