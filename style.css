@@ -1,16 +1,84 @@
-html, body {
-    font-family: Arial, serif;
-    font-size: 16px;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+
+ul {
+    list-style: none;
+  }
+
+a {
+    text-decoration: none;
 }
-table {
-    border-collapse: collapse;
+
+@font-face {
+    font-family: 'Mulish';
+    src: url("assets/fonts/Mulish-Light.ttf");
+    font-weight: 100;
+  }
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url("assets/fonts/Quicksand-SemiBold.ttf");
+    font-weight: 300;
+  }
+
+body {
+    font-family: 'Quicksand';
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f7fa;
 }
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #0c0707;
+
+.header {
+    border: 1px solid red;
 }
-table.border th {
-    background: #944646;
+
+.main {
+    border: 1px solid black
+}
+
+.footer {
+    border: 1px solid blue
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: dimgray;
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: paleturquoise;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
