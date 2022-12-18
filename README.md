@@ -1,1 +1,1 @@
-# rsschool-cv
+https://valcnut.github.io/rsschool-cv/
